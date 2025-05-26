@@ -1,0 +1,1 @@
+package com.embds.quarkus.example.extension.hibernate.error.runtime.repository;

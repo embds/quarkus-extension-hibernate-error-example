@@ -41,7 +41,7 @@ public class QuarkusExtensionHibernateErrorExampleResourceTest {
         
         Assertions.assertNotNull(val);
         Assertions.assertNotNull(val.getCreationDate());
-        Assertions.assertEquals("value : single", val.getValue());
+        Assertions.assertEquals("value : single get", val.getValue());
     }
 	
     /**

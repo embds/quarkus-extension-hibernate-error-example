@@ -52,7 +52,6 @@ public class QuarkusExtensionHibernateErrorExampleResource {
     public Uni<ExampleEntity> singlePersistAndGet() {
     	UUID id1 = UUID.randomUUID();
     	return this.exampleRepository.persist(createExampleEntity(id1, "single get"))
-    			.chain(v -> this.exampleRepository.flush())
     			.chain(v -> this.exampleRepository.findById(id1));
     	
     }

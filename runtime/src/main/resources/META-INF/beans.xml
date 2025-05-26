@@ -1,0 +1,11 @@
+<!-- #########################################
+
+***   DO NOT REMOVE   ***
+
+empty beans.xml file needed to ensure that Quarkus scan and register entities !
+
+see : https://quarkus.io/guides/hibernate-orm-panache#defining-entities-in-external-projects-or-jars
+see also : https://github.com/quarkusio/quarkus/issues/48058
+
+
+-->
